@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Maps App EPIC STORE LOCATOR</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+        <!-- import data -->
+        <script src="js/store-data-warsaw.js"></script>        
+    </head>
+    <body>
+        <div class="title">Store Locator</div>
+        <div class="search-container">
+            <div class="search">
+                <input id="zip-code-input" type="text" placeholder="Enter zip" />                
+                <i class="fas fa-search" onclick="searchStores()"></i>                
+                <!-- when click search icon call searchStores function -->
+            </div>
+        </div>
+        
+        <div class="stores-list-container">
+            <div class="stores-list">
+                
+                <div class="store-container">
+                    <div class="store-info-container">
+                        <div class="store-address">
+                            <span>Pandaria bubbletea Marszałkowska 27/35,</span>
+                            <span>00-639 Warszawa</span>
+                        </div>
+                        <div class="store-phone-number">356-345-4654</div> 
+                          <!-- <i class="fas fa-chevron-circle-right"></i> -->                                       
+                          <!-- <hr>                     -->
+                    </div>
+                    <div class="store-number-container">
+                          <div class="store-number">
+                            1
+                          </div>  
+                    </div>
+                </div>
+
+                <div class="store-container">
+                    <div class="store-info-container">
+                        <div class="store-address">
+                            <span>Cofeina	Polna 54,</span>
+                            <span>00-644 Warszawa</span>
+                        </div>
+                        <div class="store-phone-number">702-382-8055</div>
+                    </div>
+                    <div class="store-number-container">
+                          <div class="store-number">
+                            2
+                          </div>  
+                    </div>                    
+                </div>
+
+                <div class="store-container">
+                    <div class="store-info-container">
+                        <div class="store-address">
+                            <span>Etno Cafe Metro Politechnika,</span>
+                            <span>00-645 Warszawa</span>
+                        </div>
+                        <div class="store-phone-number">602-279-3499</div>
+                    </div>
+                    <div class="store-number-container">
+                          <div class="store-number">
+                            3
+                          </div>  
+                    </div>    
+                </div>
+
+                
+            </div>
+        </div>  
+
+        <div id="map"></div>
+        <!-- needs to know initMap -->
+        <script src="js/index.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlljk-09koSuYEo4aK9YFrMInZ8XVE7tI&callback=initMap"
+        async defer></script>        
+    </body>
+</html>
+<!-- https://youtu.be/1voXqu4HN9U?fbclid=IwAR0X-3CQnChHFvzehm9MP3W_IlBrU8yX5HGLuVsg4wwGEbhUQtrVH2zKr9o -->
