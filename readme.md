@@ -1,3 +1,8 @@
+# Check the project website online:
+[Click here to view project online](https://warsawstoresmarker.imfast.io/google-maps-challenge/)
+
+![How it looks like](https://github.com/mayujie/Google-maps-challenge/blob/master/map_pic.PNG?raw=true)
+
 # Plan Of Action
 # Step 1
 - Create Wireframe DONE
