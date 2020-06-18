@@ -56,11 +56,7 @@
 
 
 ## Google Maps API Key
-
-AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk
-
-**WARNING**
-DO NOT SHARE IT WITH ANYONE
+Go to google cloud platform apply a new one.
 
 ## FontAwesome Link with a lot of icons
 
